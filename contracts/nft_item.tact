@@ -37,9 +37,6 @@ contract NftItem {
         let storageFee: Int = minTonsForStorage - min(tonBalanceBeforeMsg, minTonsForStorage);
         msgValue = msgValue - (storageFee + gasConsumption);
 
-        if(msg.nft_offchain_id != null) {
-            self.nftOffchainId = msg.nft_offchain_id;
-        }
 
         // Only Owner of the this NFT Item can transfer it.
         require(ctx.sender == self.owner, "access denied");
@@ -49,6 +46,10 @@ contract NftItem {
         if (self.is_initialized == false) {  // Initial Transfer, aka the "Minting" of the NFT
             self.is_initialized = true;
             self.owner = msg.new_owner;
+            
+            if(msg.nft_offchain_id != null) {
+                self.nftOffchainId = msg.nft_offchain_id;
+            }
             send(SendParameters{
                 to: msg.response_destination,
                 value: 0,

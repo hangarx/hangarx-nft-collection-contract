@@ -1,5 +1,12 @@
 # hangarx-collection-smart-contract
 
+# Features 💎
+
+- 💎 Deploy NFT Collection
+- 💎 Deploy NFT
+- 💎 Read NFT | NFT Collection
+- 💎 Transfer NFT
+
 ## Project structure
 
 -   `contracts` - source code of all the smart contracts of the project and their dependencies.

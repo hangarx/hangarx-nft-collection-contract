@@ -6,7 +6,7 @@ message(0x5fcc3d14) Transfer {
     custom_payload: Cell?; 
     forward_amount: Int as coins; 
     forward_payload: Slice as remaining; 
-    nft_offchain_id: String;
+    nft_offchain_id: String?;
 }
 
 message(0x05138d91) OwnershipAssigned{

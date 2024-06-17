@@ -43,7 +43,7 @@ contract NftCollection with Deployable, OwnableTransferable {
     }
 
     // ===== Private Methods ===== //
-    fun mint(sender: Address, msgValue: Int, nftOffchainId: String) {
+    fun mint(sender: Address, msgValue: Int, nftOffchainId: String?) {
         require(self.next_item_index >= 0, "non-sequential NFTs");
         
         let nft_init: StateInit = self.getNftItemInit(self.next_item_index);
