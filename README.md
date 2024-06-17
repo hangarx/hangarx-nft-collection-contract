@@ -1,11 +1,23 @@
 # hangarx-collection-smart-contract
 
+![HangarX](https://avatars.githubusercontent.com/u/171933940?v=4 "HangarX")
+
+- Homepage : hangarx.io
+- Portal Gaming : portal.hangarx.io
+- Discord: https://discord.gg/3ruA9fBNpf
+- Twitter/X: https://x.com/Hangarxio
+- Telegram Channel: https://t.me/hangarxgam
+- Telegram chat: https://t.me/hangarxg
+- Youtube: https://www.youtube.com/channel/UCYzeAKn98uA7HfFhK7Zig3w
+
 # Features 💎
 
 - 💎 Deploy NFT Collection
 - 💎 Deploy NFT
 - 💎 Read NFT | NFT Collection
 - 💎 Transfer NFT
+
+- **NOTE** : Please check env. file
 
 ## Project structure
 
