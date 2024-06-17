@@ -2,8 +2,8 @@
 
 ![HangarX](https://avatars.githubusercontent.com/u/171933940?v=4 "HangarX")
 
-- Homepage : hangarx.io
-- Portal Gaming : portal.hangarx.io
+- Homepage : https://hangarx.io
+- Portal Gaming : https://portal.hangarx.io
 - Discord: https://discord.gg/3ruA9fBNpf
 - Twitter/X: https://x.com/Hangarxio
 - Telegram Channel: https://t.me/hangarxgam
